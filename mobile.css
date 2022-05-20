@@ -1,0 +1,74 @@
+#navbar {
+    display: none;
+
+}
+
+#navbar ul {
+    flex-direction: column;
+    justify-content: center;
+}
+
+#navbar ul li {
+    align-self: center;
+    margin-bottom: 20px;
+
+}
+
+
+#about-me .showcase-content .header-lead {
+    font-size: 40px;
+    padding-top: 1.5rem;
+}
+
+.l-heading {
+    font-size: 25px;
+}
+
+#work-experience .text-body ul {
+    display: block;
+    text-align: justify;
+}
+
+#about-me .showcase-content {
+    text-align: left;
+    padding: 20px;
+
+}
+
+
+#footer-content .footer-text p i {
+    display: none;
+}
+
+.footer-text {
+    display: block;
+    font-size: 1.2rem;
+}
+
+
+@media (max-width:400px) {
+
+    #about-me .showcase-content .header-lead {
+        font-size: 30px;
+
+    }
+
+    #about-me .showcase-content .l-heading {
+        font-size: 20px;
+
+    }
+
+    #about-me .showcase-content .text-body {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    #footer-content .footer-text p i {
+        display: none;
+    }
+
+    .footer-text {
+        display: block;
+        font-size: 1.2rem;
+    }
+}
